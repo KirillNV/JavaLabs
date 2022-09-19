@@ -13,7 +13,7 @@ public class Lab1 {
        Integer uneven = 0;
  for (String x : args) {
  
- if (Integer.parseInt(x) % 2 == 0 && Integer.parseInt(x) >0) {// четные положительные
+ if (Integer.parseInt(x) % 2 == 0 && Integer.parseInt(x) >0) {//четные положительные
  even = even + 1;
  } else if (Integer.parseInt(x) % 2 != 0 && Integer.parseInt(x) >0){//«нечётных и положительных
  uneven = uneven + 1;
